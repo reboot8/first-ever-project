@@ -112,6 +112,9 @@ h6{
         font-size: 20px;
         width: 350px;
     }
+    .click-video{
+        height: 200px;
+    }
     .femobinew{
         position: relative;
         display: inline;
