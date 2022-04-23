@@ -1,0 +1,271 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+    font-family: "Soleil_Medium",Helvetica,Arial,sans-serif;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.table-bkg-col{
+    background-color: #f8f8f8;
+    border-radius: 10px;
+}
+.fa-solid{
+    color: #00a82d;
+}
+.pad-3{
+    padding: 3%;
+    padding-left: 10%;
+}
+.bold-price{
+    font-weight: bold;
+    font-size: 2em;
+}
+.d-none{
+    display: none;
+    
+}
+.d-flex{
+    display: flex;
+}
+.post-rel{
+    position: relative;
+}
+.hover-text{
+    position: absolute;
+    bottom: 30%;
+    right: 65%;
+    background-color: #2e2d2d;
+    color: #fff;
+    font-size: 0.7em;
+    height: fit-content;
+    padding: 1% ;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+.subscription-link{
+    background-color: #00a82d;
+    width: 70%;
+    height: 3%;
+    margin: 10px auto;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.subscription-link a{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    width: 100%;
+    padding: 7% 0;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+.bold{
+    font-weight: bold;
+}
+.fa-arrow-left{
+    margin-right: 2%;
+}
+span{
+    font-size: 0.5em;
+}
+.heading-with-icon{
+    position: relative;
+}
+.f-caret{
+    position: absolute;
+    left: 90%;
+    padding-top: 4%;
+    cursor: pointer;
+}
+
+/* pricing intro */
+
+.pricing-intro{
+    width: 70vw;
+    height: fit-content;
+    margin: 2% auto;
+    padding-top: 2%;
+    text-align: center;
+}
+.pricing-intro h2{
+    font-size: 2em;
+}
+.pricing-intro .description p{
+    padding: 3% 0 1%;
+    font-size: 1.5em;
+    line-height: 1.5;
+    width: 100%;
+
+}
+.pricing-intro .link a{
+    text-decoration: none;
+    color: #00a82d;
+    font-weight: bold;
+    font-size: 1em;
+
+}
+.fa-check{
+    display: inline-block;
+    margin-right: 8px;
+    text-align: center;
+    width: 18px;
+}
+
+/* pricing table */
+
+.pricing-table{
+    display: flex;
+    margin: 5%;
+    justify-content: space-between;
+}
+/* free */
+.column-one{
+    width: 28vw;
+    height: fit-content;
+    letter-spacing: 1.4px;
+}
+.column-one .heading{
+    font-size: 1.5em;
+    padding-top: 4%;    
+}
+.column-one .note{
+    font-weight: bold;
+}
+
+/* personal */
+.column-two{
+    width: 28vw;
+    height: fit-content;
+    letter-spacing: 1.4px;
+}
+.column-two .heading{
+    font-size: 1.5em;
+    padding-top: 4%;    
+}
+.column-two .note{
+    font-weight: bold;
+}
+
+/* professional */
+.column-three{
+    width: 30vw;
+    height: fit-content;
+    letter-spacing: 1.4px;
+}
+.column-three .heading{
+    font-size: 1.5em;
+    padding-top: 4%;    
+}
+.column-three .note{
+    font-weight: bold;
+}
+
+/* team plan */
+.team-plan{
+    display: flex;
+    width: 67vw;
+    height: fit-content;
+    margin: 2% auto 5%;
+    border: 2px solid #d9d9d9;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 1.5% 1%;
+}
+.team-plan-description{
+    width: 70%;
+}
+.team-plan-description .heading{
+    font-size: 1.3em;
+}
+.team-plan-description .price{
+    font-size: 2.2em;
+    font-weight: bold;
+    padding: 1.5% 0 3% 0;
+}
+.team-plan-description .note{
+    letter-spacing: 1px;
+}
+.team-plan-icon{
+    padding: 2% 0;
+}
+
+/* media responsiveness */
+@media screen and (max-width:567px) {
+    .pricing-table{
+        display: block;
+    }
+    .column-one{
+        width: 90vw;
+        font-size: 0.9em;
+    }
+    .column-two{
+        width: 90vw;
+        font-size: 0.9em;
+    }
+    .column-three{
+        width: 90vw;
+        font-size: 0.9em;
+    }
+    .team-plan{
+        width: 90vw;
+        font-size: 0.9em;
+    }
+    .pad-3{
+        padding: 1.5%;
+    }
+    .sect5 h3{
+        color: red;
+    }
+   
+}
+@media screen and (max-width:768px) {
+    .pricing-table{
+        display: block;
+    }
+    .column-one{
+        width: 90vw;
+        font-size: 0.9em;
+    }
+    
+    .column-two{
+        width: 90vw;
+        font-size: 0.9em;
+    }
+    .di-none{
+        display: none;
+    }
+    .dis-none{
+        display: none;
+    }
+    .column-three{
+        width: 90vw;
+        font-size: 0.9em;
+    }
+    
+    .team-plan{
+        width: 90vw;
+        font-size: 0.9em;
+    }
+    .pad-3{
+        padding: 1.5%;
+    }
+
+   
+}
+@media screen and (max-width:1048px) {
+    .team-plan{
+        width: 85vw;
+    }
+    
+}
+@media screen and (min-width:768px) {
+    .f-caret{
+        display: none;
+    }
+    
+}
+

@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+}
+.each-footer{
+    width: 33.32%;
+    margin-top: 40px;
+    
+  
+    
+}
+
+
+.none{
+    display: none;
+    
+}
+.show{
+    display: flex;
+    background-color:#e7f0f4;
+    width: 400px;
+    position: fixed;
+    top: -6rem;
+        border-radius: 5px solid black;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.5);
+    
+    
+}
+.show.active{
+    left: 0;
+}
+.left li{
+    margin:5px;
+}
+.right li{
+    margin:5px;
+}
+.show li:hover{
+    background-color: #00A82d;
+    color: white;
+}
+.footer-container{
+    width: 90%;
+    margin: auto;
+}
+.last-footer{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.img-svg{
+    height: 100px;
+    border-bottom: 2px solid black;
+}
+.flex{
+    display: flex;
+}
+.link-nav{
+    text-decoration: none;
+    color: black;
+    padding-left: 40px;
+   
+}
+.link-navcu{
+    text-decoration: none;
+    color: black;
+}
+.toggle.active{
+    display: none;
+    justify-content: space-around;
+
+
+ 
+ }
+ 
+ 
+hr{
+    margin-top: 20px;
+    
+}
+.footer-last-link a{
+    text-decoration: none;
+    color: gray;
+   
+}
+.footer-last-link{
+    text-decoration: none;
+    color: gray;
+}
+.icons-footer{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.parent-link-nav{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;   
+}
+
+.mydiv{
+    position: relative;
+}
+li{
+    list-style: none;
+    margin-left: -50px;
+    padding: 10px;
+}
+@media screen and (max-width:768px){
+   .flex{
+       display: flex;
+       flex-direction: column;
+   }
+    .each-footer{
+      width: 49.98%;
+        height: 550px;
+
+}
+
+
+.width{
+    height: 300px;
+}
+.last-footer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    text-align: center;
+    
+}
+.icons-footer{
+    display: flex;
+    flex-direction: column;
+}
+.img-icons{
+    display: flex;
+    justify-content: space-between;
+
+}
+.img-icons img{
+    width: 50px;
+
+}
+.privacy{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+}

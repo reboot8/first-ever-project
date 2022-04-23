@@ -1,0 +1,747 @@
+* {
+
+    box-sizing: border-box;
+
+    margin:0;
+
+    padding: 0px;
+
+    font: "Soleil_Bold", Helvetica, Arial, sans-serif;
+    /* border: 1px solid black; */
+
+}
+
+p,
+
+h1,
+
+h2,
+
+h3,
+
+h4,
+body,
+h5,
+div,
+.sect-1,
+h6{
+    padding: 0%;
+    margin:0;
+
+}
+
+.brd {
+
+    border: 1px solid black;
+
+}
+
+
+.d-flex{
+    display: flex;
+}
+
+
+
+.col-1{
+
+    width:8.33%;
+
+}
+
+.col-2{
+
+    width:16.67%;
+
+}
+
+.col-3{
+
+    width:24.99%;
+
+}
+
+.col-4{
+
+    width:33.32%;
+
+}
+
+.col-5{
+
+    width:41.65%;
+
+}
+
+.col-6{
+
+    width:49.98%;
+
+}
+
+.col-7{
+
+    width:58.31%;
+
+}
+
+.col-8{
+
+    width:66.64%;
+
+}
+
+.col-9{
+
+    width:74.97%;
+
+}
+
+.col-10{
+
+    width:83.3%;
+
+}
+
+.col-11{
+
+    width:91.63%;
+
+}
+
+.col-12{
+
+    width:99.96%;
+
+}
+/*[class*="user-"] {
+
+    border: 1px solid black;
+
+}*/
+
+.container1{
+    overflow: hidden;
+}
+.hero-indicator{
+    display: flex;
+    justify-content: center;
+}
+
+.hero-btn{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    background-color: rgba(201, 197, 197, 0.925);
+    cursor: pointer;
+    margin: 9% 5% 13% 0%;
+}
+
+.slide-col, .root{
+    display: flex;
+    width: auto;
+}
+.slide-row, .root{
+    transition: 1s;
+}
+
+.user-text{
+    width: 100%;
+    text-align: center;
+    /* margin-right: 30%; */
+    font: "Soleil_Bold", Helvetica, Arial, sans-serif;
+    
+}
+
+.active{
+    background-color: black;
+}
+.sect-1{
+    margin-top: 8%;
+}
+.sect-2{
+    padding:6%;
+}
+.find h1{
+    text-align: center;
+    font-size: 4rem;
+    line-height: 40px;
+    font-weight: bolder;
+}
+.find h2{
+    text-align: center;
+    font-weight: bold;
+    margin-top:20px ;
+}
+.find{
+    margin-top:8px ;
+    
+}
+.align-items-center{
+    justify-content: center;
+}
+.click-video{
+    margin-top: 12%;
+}
+
+@media screen and (min-width: 300px) {
+
+    .col-vsm-1{
+
+        width:8.33%;
+
+    }
+
+    .col-vsm-2{
+
+        width:16.67%;
+
+    }
+
+    .col-vsm-3{
+
+        width:24.99%;
+
+    }
+
+    .col-vsm-4{
+
+        width:33.32%;
+
+    }
+
+    .col-vsm-5{
+
+        width:41.65%;
+
+    }
+
+    .col-vsm-6{
+
+        width:49.98%;
+
+    }
+
+    .col-vsm-7{
+
+        width:58.31%;
+
+    }
+
+    .col-vsm-8{
+
+        width:66.64%;
+
+    }
+
+    .col-vsm-9{
+
+        width:74.97%;
+
+    }
+
+    .col-vsm-10{
+
+        width:83.3%;
+
+    }
+
+    .col-vsm-11{
+
+        width:91.63%;
+
+    }
+
+    .col-vsm-12{
+
+        width:99.96%;
+
+    }
+    .fst-child{
+        margin-right: 100px;
+    }
+    .snd-child{
+        margin-right: 170px;
+    }
+    .trd-child{
+        margin-right: 130px;
+    }
+
+    .user-text h3, p{
+        width: 310px;
+    }
+    .find h1{
+        text-align: center;
+        font-size: 2.32rem;
+    
+    }
+    .sm-hid{
+    display: none;
+}
+    
+
+}
+
+@media screen and (min-width: 375px) {
+    .fst-child{
+        margin-right: 40px;
+        margin-left: 10px;
+    }
+    .snd-child{
+        margin-right: 110px;
+    }
+    .trd-child{
+        margin-right: 90px;
+    }
+    .user-text h3, p{
+        width: 365px;
+    }
+    .sm-hid{
+    display: none;
+}
+}
+@media screen and (min-width: 425px) {
+    .fst-child{
+        margin-left:12% ;
+        margin-right: 30%;
+        width: 425px;
+    }
+    .snd-child{
+        margin-right: 30%;
+    }
+    .trd-child{
+        margin-right: 33%;
+    }
+    .user-text h3, p{
+        width: 406px;
+    }
+    .sm-hid{
+    display: none;
+    }
+    .imgg{
+        padding: 0% 0% 0% 8%;
+    }
+}
+
+@media screen and (min-width: 567px) {
+
+    .col-sm-1{
+
+        width:8.33%;
+
+    }
+
+    .col-sm-2{
+
+        width:16.67%;
+
+    }
+
+    .col-sm-3{
+
+        width:24.99%;
+
+    }
+
+    .col-sm-4{
+
+        width:33.32%;
+
+    }
+
+    .col-sm-5{
+
+        width:41.65%;
+
+    }
+
+    .col-sm-6{
+
+        width:49.98%;
+
+    }
+
+    .col-sm-7{
+
+        width:58.31%;
+
+    }
+
+    .col-sm-8{
+
+        width:66.64%;
+
+    }
+
+    .col-sm-9{
+
+        width:74.97%;
+
+    }
+
+    .col-sm-10{
+
+        width:83.3%;
+
+    }
+
+    .col-sm-11{
+
+        width:91.63%;
+
+    }
+
+    .col-sm-12{
+
+        width:99.96%;
+
+    }
+    .container1{
+        margin-top: 50px;        
+    }
+    
+    .fst-child{
+        margin-right: 40%;
+    }
+    .snd-child{
+        margin-right: 170px;
+    }
+    .trd-child{
+        margin-right: 130px;
+    }
+
+    .user-text h3, .user-text p{
+        width: 200px;
+    }
+    .find h1{
+        text-align: center;
+        font-size: 2.32rem;
+    
+    }
+    .sm-hid{
+    display: none;
+}
+    
+
+}
+
+@media screen and (min-width: 700px) {
+
+    .col-md-1{
+
+        width:8.33%;
+
+    }
+
+    .col-md-2{
+
+        width:16.67%;
+
+    }
+
+    .col-md-3{
+
+        width:24.99%;
+
+    }
+
+    .col-md-4{
+
+        width:33.32%;
+
+    }
+
+    .col-md-5{
+
+        width:41.65%;
+
+    }
+
+    .col-md-6{
+
+        width:49.98%;
+
+    }
+
+    .col-md-7{
+
+        width:58.31%;
+
+    }
+
+    .col-md-8{
+
+        width:66.64%;
+
+    }
+
+    .col-md-9{
+
+        width:74.97%;
+
+    }
+
+    .col-md-10{
+
+        width:83.3%;
+
+    }
+
+    .col-md-11{
+
+        width:91.63%;
+
+    }
+
+    .col-md-12{
+
+        width:99.96%;
+
+    }
+    
+    .sect-1{
+        display: flex;
+    }
+    .imgg{
+        padding: 6%;
+    }
+    .slide-col{
+        display: block;
+        margin-top: 30px;
+        width: auto;
+        
+    }
+    .hero-indicator{
+        display: none;
+    }
+    .user-text{
+        text-align: start;
+        margin-top: 10px;
+        font-size: 14px;
+     }
+    .user-text p{
+        line-height: 15px;
+        width:260px;
+    }
+    .user-text h3{
+        line-height: 40px;
+        width: 260px;
+    }
+    .root{
+        display: none;
+    }
+
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .col-lg-1{
+
+        width:8.33%;
+
+    }
+
+    .col-lg-2{
+
+        width:16.67%;
+
+    }
+
+    .col-lg-3{
+
+        width:24.99%;
+
+    }
+
+    .col-lg-4{
+
+        width:33.32%;
+
+    }
+
+    .col-lg-5{
+
+        width:41.65%;
+
+    }
+
+    .col-lg-6{
+
+        width:49.98%;
+
+    }
+
+    .col-lg-7{
+
+        width:58.31%;
+
+    }
+
+    .col-lg-8{
+
+        width:66.64%;
+
+    }
+
+    .col-lg-9{
+
+        width:74.97%;
+
+    }
+
+    .col-lg-10{
+
+        width:83.3%;
+
+    }
+
+    .col-lg-11{
+
+        width:91.63%;
+
+    }
+
+    .col-lg-12{
+
+        width:99.96%;
+    }
+
+   .sect-1{
+        display: flex;
+        /* justify-content: space-between; */
+        
+    }
+    .slide-col{
+        display: block;
+        margin-top: 80px;
+        width: 360px;
+        
+    }
+    .hero-indicator{
+        display: none;
+    }
+    .user-text{
+        text-align: start;
+        margin-top: 10px;
+        font-size: 15px;
+     }
+    .user-text p{
+        line-height: 30px;
+        width:250px;
+    }
+    .user-text h3{
+        line-height: 50px;
+        width:300px;
+    }
+    .root{
+        display: none;
+    }
+    .find h1{
+        text-align: center;
+        font-size: 3.22rem;
+    
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    .col-xl-1{
+
+        width:8.33%;
+
+    }
+
+    .col-xl-2{
+
+        width:16.67%;
+
+    }
+
+    .col-xl-3{
+
+        width:24.99%;
+
+    }
+
+    .col-xl-4{
+
+        width:33.32%;
+
+    }
+
+    .col-xl-5{
+
+        width:41.65%;
+
+    }
+
+    .col-xl-6{
+
+        width:49.98%;
+
+    }
+
+    .col-xl-7{
+
+        width:58.31%;
+
+    }
+
+    .col-xl-8{
+
+        width:66.64%;
+
+    }
+
+    .col-xl-9{
+
+        width:74.97%;
+
+    }
+
+    .col-xl-10{
+
+        width:83.3%;
+
+    }
+
+    .col-xl-11{
+
+        width:91.63%;
+
+    }
+
+    .col-xl-12{
+
+        width:99.96%;
+
+    }
+    .sect-1{
+        display: flex;
+    }
+    .slide-col{
+        display: block;
+        margin-top: 90px;
+        width: auto;
+        
+    }
+    .hero-indicator{
+        display: none;
+    }
+    .user-text{
+        text-align: start;
+        margin-top: 10px;
+     }
+    .user-text p{
+        line-height: 20px;
+        width:200px;
+    }
+    .user-text h3{
+        line-height: 35px;
+    }
+   
+}
+
